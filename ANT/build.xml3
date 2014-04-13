@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<project name="hello" default="info">
+ 	<property name="sitename" value="asd.com"/>
+	<target name="info">
+		<echo>${sitename}</echo>
+	</target>
+</project>

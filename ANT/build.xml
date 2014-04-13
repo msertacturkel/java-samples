@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project name="dependss" default="info">
+<target name="info">
+	<echo>default</echo>
+</target>
+<target name="deploy" depends="package">
+	<echo>deploy</echo>
+</target>
+<target name="package" depends="clean,compile">
+	<echo>packagea</echo>
+</target> 
+<target name="compile">
+	<echo>compile</echo>
+</target>
+<target name="clean">
+	<echo>clean</echo>
+</target>
+</project>

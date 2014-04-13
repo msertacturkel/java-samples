@@ -1,0 +1,8 @@
+<project name="sertac" default="inf">
+<target name="inf">
+<fileset dir="/home/sertac/calismaDizini/workspace/ant" casesensitive="yes">
+  <include name="**/*.txt"/>
+  <exclude name="**/*s*"/>
+</fileset>
+</target>
+</project>

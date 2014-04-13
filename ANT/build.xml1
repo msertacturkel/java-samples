@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="HelloWord" default="info">
+<target name="info">	
+	<echo>Hello Sertac..</echo>
+</target>
+</project>
